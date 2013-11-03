@@ -41,25 +41,26 @@
       <nestedClassifier xmi:type="uml:Class" xmi:id="_maSmIERKEeOGPrvk5JzyiQ" name="Notificar Interessados"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_aXZjYERHEeOGPrvk5JzyiQ" name="Monitoramento Ambiental">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_8T7d0kRIEeOGPrvk5JzyiQ" name="secretaria de meio ambiente" type="_Xg9FQERIEeOGPrvk5JzyiQ" aggregation="composite" association="_8T62wERIEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_-uLSsERIEeOGPrvk5JzyiQ" name="webservice" type="_CmGb8ERIEeOGPrvk5JzyiQ" aggregation="composite" association="_-uKEkERIEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="__dRNUkRIEeOGPrvk5JzyiQ" name="hub" type="_NpwWoERIEeOGPrvk5JzyiQ" aggregation="composite" association="__dQmQERIEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_AOG0YkRJEeOGPrvk5JzyiQ" name="ambiente físico" type="_04VrcERHEeOGPrvk5JzyiQ" aggregation="composite" association="_AOGNUERJEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_HSQzokRJEeOGPrvk5JzyiQ" name="bombeiros" type="_UvPLkERIEeOGPrvk5JzyiQ" aggregation="composite" association="_HSPlgERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8T7d0kRIEeOGPrvk5JzyiQ" name="" type="_Xg9FQERIEeOGPrvk5JzyiQ" aggregation="composite" association="_8T62wERIEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-uLSsERIEeOGPrvk5JzyiQ" name="" type="_CmGb8ERIEeOGPrvk5JzyiQ" aggregation="composite" association="_-uKEkERIEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__dRNUkRIEeOGPrvk5JzyiQ" name="" type="_NpwWoERIEeOGPrvk5JzyiQ" aggregation="composite" association="__dQmQERIEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_AOG0YkRJEeOGPrvk5JzyiQ" name="" type="_04VrcERHEeOGPrvk5JzyiQ" aggregation="composite" association="_AOGNUERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HSQzokRJEeOGPrvk5JzyiQ" name="" type="_UvPLkERIEeOGPrvk5JzyiQ" aggregation="composite" association="_HSPlgERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rb5cYkTaEeOoW78l88xKAA" name="" type="_nCvq0ETaEeOoW78l88xKAA" aggregation="composite" association="_rb4OQETaEeOoW78l88xKAA"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_gZCVsERHEeOGPrvk5JzyiQ" name="operation1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_qgg8AERHEeOGPrvk5JzyiQ" name="Subscriber"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_04VrcERHEeOGPrvk5JzyiQ" name="Ambiente Físico">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_z_YYQkRJEeOGPrvk5JzyiQ" name="sensores" type="_RGDo8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_z_XxMERJEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_0wQbkkRJEeOGPrvk5JzyiQ" name="atmosfera" type="_UsLbEERJEeOGPrvk5JzyiQ" aggregation="composite" association="_0wPNcERJEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_1gry8kRJEeOGPrvk5JzyiQ" name="veículos" type="_sNctAERJEeOGPrvk5JzyiQ" aggregation="composite" association="_1gqk0ERJEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_2PahMERJEeOGPrvk5JzyiQ" name="chuva" type="_YxEM0ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_2PZTEERJEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_26SDIURJEeOGPrvk5JzyiQ" name="lixeiras" type="_lJ6Y0ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_26Q1AERJEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_3gP28URJEeOGPrvk5JzyiQ" name="vento" type="_imARoERJEeOGPrvk5JzyiQ" aggregation="composite" association="_3gOo0ERJEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_4GkQEERJEeOGPrvk5JzyiQ" name="carros" type="_dXHx8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_4GjB8ERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_z_YYQkRJEeOGPrvk5JzyiQ" name="" type="_RGDo8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_z_XxMERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_0wQbkkRJEeOGPrvk5JzyiQ" name="" type="_UsLbEERJEeOGPrvk5JzyiQ" aggregation="composite" association="_0wPNcERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1gry8kRJEeOGPrvk5JzyiQ" name="" type="_sNctAERJEeOGPrvk5JzyiQ" aggregation="composite" association="_1gqk0ERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2PahMERJEeOGPrvk5JzyiQ" name="" type="_YxEM0ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_2PZTEERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_26SDIURJEeOGPrvk5JzyiQ" name="" type="_lJ6Y0ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_26Q1AERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3gP28URJEeOGPrvk5JzyiQ" name="" type="_imARoERJEeOGPrvk5JzyiQ" aggregation="composite" association="_3gOo0ERJEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4GkQEERJEeOGPrvk5JzyiQ" name="" type="_dXHx8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_4GjB8ERJEeOGPrvk5JzyiQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_CmGb8ERIEeOGPrvk5JzyiQ" name="WebService">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_-uLSsURIEeOGPrvk5JzyiQ" name="monitoramento ambiental" type="_aXZjYERHEeOGPrvk5JzyiQ" association="_-uKEkERIEeOGPrvk5JzyiQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-uLSsURIEeOGPrvk5JzyiQ" name="" type="_aXZjYERHEeOGPrvk5JzyiQ" association="_-uKEkERIEeOGPrvk5JzyiQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_NpwWoERIEeOGPrvk5JzyiQ" name="Hub"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_UvPLkERIEeOGPrvk5JzyiQ" name="Bombeiros">
@@ -347,6 +348,13 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_lxahQUSXEeOGPrvk5JzyiQ" name="contextreasoner" type="_k9SeAESJEeOGPrvk5JzyiQ" association="_lxYsEESXEeOGPrvk5JzyiQ"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nCvq0ETaEeOoW78l88xKAA" name="Contextanalyzer"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_rb4OQETaEeOoW78l88xKAA" name="" memberEnd="_rb5cYkTaEeOoW78l88xKAA _rb6DcETaEeOoW78l88xKAA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rb5cYETaEeOoW78l88xKAA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rb5cYUTaEeOoW78l88xKAA" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_rb6DcETaEeOoW78l88xKAA" name="monitoramento ambiental" type="_aXZjYERHEeOGPrvk5JzyiQ" association="_rb4OQETaEeOoW78l88xKAA"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Sx9dAEQ8EeOGPrvk5JzyiQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sx9dAUQ8EeOGPrvk5JzyiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
@@ -453,4 +461,5 @@
   <Constraints:ConstraintBlock xmi:id="_ldRkoESUEeOGPrvk5JzyiQ" base_Class="_ldQWgESUEeOGPrvk5JzyiQ"/>
   <Constraints:ConstraintBlock xmi:id="_FkexoESVEeOGPrvk5JzyiQ" base_Class="_FkdjgESVEeOGPrvk5JzyiQ"/>
   <Constraints:ConstraintBlock xmi:id="_p-roYESWEeOGPrvk5JzyiQ" base_Class="_p-qaQESWEeOGPrvk5JzyiQ"/>
+  <Blocks:Block xmi:id="_nDWu0ETaEeOoW78l88xKAA" base_Class="_nCvq0ETaEeOoW78l88xKAA"/>
 </xmi:XMI>
