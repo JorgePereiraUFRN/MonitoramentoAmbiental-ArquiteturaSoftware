@@ -49,6 +49,9 @@
     <availablePage>
       <emfPageIdentifier href="MonitoramentoAmbiental.notation#_QcoGoETnEeOoW78l88xKAA"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MonitoramentoAmbiental.notation#_MkrsoEVTEeOYY9b3PNi97w"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
@@ -73,6 +76,9 @@
         </children>
         <children>
           <emfPageIdentifier href="MonitoramentoAmbiental.notation#_QcoGoETnEeOoW78l88xKAA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MonitoramentoAmbiental.notation#_MkrsoEVTEeOYY9b3PNi97w"/>
         </children>
       </children>
     </windows>
