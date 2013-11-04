@@ -43,10 +43,19 @@
     <availablePage>
       <emfPageIdentifier href="MonitoramentoAmbiental.notation#_jb9OIESJEeOGPrvk5JzyiQ"/>
     </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MonitoramentoAmbiental.notation#_vXdj8ETjEeOoW78l88xKAA"/>
+    </availablePage>
+    <availablePage>
+      <emfPageIdentifier href="MonitoramentoAmbiental.notation#_QcoGoETnEeOoW78l88xKAA"/>
+    </availablePage>
   </pageList>
   <sashModel currentSelection="//@sashModel/@windows.0/@children.0">
     <windows>
       <children xsi:type="di:TabFolder">
+        <children>
+          <emfPageIdentifier href="MonitoramentoAmbiental.notation#_eZx34ERAEeOGPrvk5JzyiQ"/>
+        </children>
         <children>
           <emfPageIdentifier href="MonitoramentoAmbiental.notation#_S8EbQEQ8EeOGPrvk5JzyiQ"/>
         </children>
@@ -54,13 +63,16 @@
           <emfPageIdentifier href="MonitoramentoAmbiental.notation#_rcmx0EQ8EeOGPrvk5JzyiQ"/>
         </children>
         <children>
-          <emfPageIdentifier href="MonitoramentoAmbiental.notation#_eZx34ERAEeOGPrvk5JzyiQ"/>
-        </children>
-        <children>
           <emfPageIdentifier href="MonitoramentoAmbiental.notation#_otmoYERREeOGPrvk5JzyiQ"/>
         </children>
         <children>
           <emfPageIdentifier href="MonitoramentoAmbiental.notation#_jb9OIESJEeOGPrvk5JzyiQ"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MonitoramentoAmbiental.notation#_vXdj8ETjEeOoW78l88xKAA"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="MonitoramentoAmbiental.notation#_QcoGoETnEeOoW78l88xKAA"/>
         </children>
       </children>
     </windows>
