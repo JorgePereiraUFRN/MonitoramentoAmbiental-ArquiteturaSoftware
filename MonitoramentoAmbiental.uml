@@ -21,7 +21,7 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_8X-t0EQ8EeOGPrvk5JzyiQ" name="Estrutura"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_-2wdYEQ8EeOGPrvk5JzyiQ" name="Casos de Uso"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-2wdYEQ8EeOGPrvk5JzyiQ" name="Paramatrics"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_DbIngEQ9EeOGPrvk5JzyiQ" name="Requisitos"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_t5zQMERAEeOGPrvk5JzyiQ" name="Monitoramento Ambiental">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_nIoXAERDEeOGPrvk5JzyiQ" name="Inferir Ocorrências de Eventos Ambinetais"/>
@@ -59,15 +59,11 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_2PahMERJEeOGPrvk5JzyiQ" name="" type="_YxEM0ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_2PZTEERJEeOGPrvk5JzyiQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_26SDIURJEeOGPrvk5JzyiQ" name="" type="_lJ6Y0ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_26Q1AERJEeOGPrvk5JzyiQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_3gP28URJEeOGPrvk5JzyiQ" name="" type="_imARoERJEeOGPrvk5JzyiQ" aggregation="composite" association="_3gOo0ERJEeOGPrvk5JzyiQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_4GkQEERJEeOGPrvk5JzyiQ" name="" type="_dXHx8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_4GjB8ERJEeOGPrvk5JzyiQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_CmGb8ERIEeOGPrvk5JzyiQ" name="WebService">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_1TWNMETbEeOoW78l88xKAA" name="" type="_nCvq0ETaEeOoW78l88xKAA" association="_1TTw8ETbEeOoW78l88xKAA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_NpwWoERIEeOGPrvk5JzyiQ" name="Hub">
       <generalization xmi:type="uml:Generalization" xmi:id="_u4MusETbEeOoW78l88xKAA" general="_rqA7cETbEeOoW78l88xKAA"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_UvPLkERIEeOGPrvk5JzyiQ" name="Bombeiros">
+    <packagedElement xmi:type="uml:Class" xmi:id="_UvPLkERIEeOGPrvk5JzyiQ" name="Veiculos/seg">
       <generalization xmi:type="uml:Generalization" xmi:id="_tTAcUERIEeOGPrvk5JzyiQ" general="_qgg8AERHEeOGPrvk5JzyiQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Xg9FQERIEeOGPrvk5JzyiQ" name="Secretaria de Meio ambiente">
@@ -85,10 +81,9 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_AOHbcERJEeOGPrvk5JzyiQ" name="monitoramento ambiental" type="_aXZjYERHEeOGPrvk5JzyiQ" association="_AOGNUERJEeOGPrvk5JzyiQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_RGDo8ERJEeOGPrvk5JzyiQ" name="Sensores"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_UsLbEERJEeOGPrvk5JzyiQ" name="Atmosfera"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_YxEM0ERJEeOGPrvk5JzyiQ" name="Chuva"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_dXHx8ERJEeOGPrvk5JzyiQ" name="Carros"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RGDo8ERJEeOGPrvk5JzyiQ" name="Indice de Poluicao"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UsLbEERJEeOGPrvk5JzyiQ" name="Probalidade de chuva"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YxEM0ERJEeOGPrvk5JzyiQ" name="temperatura"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_imARoERJEeOGPrvk5JzyiQ" name="Vento"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_lJ6Y0ERJEeOGPrvk5JzyiQ" name="Lixeiras"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_sNctAERJEeOGPrvk5JzyiQ" name="Veículos"/>
@@ -127,12 +122,6 @@
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3gP28ERJEeOGPrvk5JzyiQ" key="nature" value="SysML_Nature"/>
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_3gQeAERJEeOGPrvk5JzyiQ" name="ambiente físico" type="_04VrcERHEeOGPrvk5JzyiQ" association="_3gOo0ERJEeOGPrvk5JzyiQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_4GjB8ERJEeOGPrvk5JzyiQ" name="" memberEnd="_4GkQEERJEeOGPrvk5JzyiQ _4GkQEURJEeOGPrvk5JzyiQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4GjpAERJEeOGPrvk5JzyiQ" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4GjpAURJEeOGPrvk5JzyiQ" key="nature" value="SysML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_4GkQEURJEeOGPrvk5JzyiQ" name="ambiente físico" type="_04VrcERHEeOGPrvk5JzyiQ" association="_4GjB8ERJEeOGPrvk5JzyiQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_RadSAERREeOGPrvk5JzyiQ" name="Interaction1"/>
     <packagedElement xmi:type="uml:Activity" xmi:id="_W4F_YERREeOGPrvk5JzyiQ" name="Activity1" node="_iXR_gERREeOGPrvk5JzyiQ _nIJGcERREeOGPrvk5JzyiQ">
@@ -174,7 +163,7 @@
         <ownedRule xmi:type="uml:Constraint" xmi:id="_g10qoUSPEeOGPrvk5JzyiQ" name="Constraint5">
           <specification xmi:type="uml:LiteralString" xmi:id="_SkQQMESUEeOGPrvk5JzyiQ" name="constraintSpec" value="Pessima: if (IP > 300)"/>
         </ownedRule>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_H-Jt0ESMEeOGPrvk5JzyiQ" name="IP " aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_H-Jt0ESMEeOGPrvk5JzyiQ" name="IP " type="_RGDo8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_UY-TcEXDEeOrqpxX3URsmQ"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_lpcDQESSEeOGPrvk5JzyiQ" name="Trafego de Veiculos">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_v5CDwESSEeOGPrvk5JzyiQ" name="Constraint1">
@@ -183,7 +172,7 @@
         <ownedRule xmi:type="uml:Constraint" xmi:id="_EVrHEESTEeOGPrvk5JzyiQ" name="Constraint2">
           <specification xmi:type="uml:LiteralString" xmi:id="_WvloMESUEeOGPrvk5JzyiQ" name="constraintSpec" value="Bom: if (FV &lt;= 60)"/>
         </ownedRule>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_sBGI4ESSEeOGPrvk5JzyiQ" name="FV" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_sBGI4ESSEeOGPrvk5JzyiQ" name="FV" type="_UvPLkERIEeOGPrvk5JzyiQ" aggregation="composite" association="_s_ObAEXEEeOrqpxX3URsmQ"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_arLwgESTEeOGPrvk5JzyiQ" name="Probabilidade Chuva">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_gEpvkESTEeOGPrvk5JzyiQ" name="Constraint1">
@@ -192,14 +181,14 @@
         <ownedRule xmi:type="uml:Constraint" xmi:id="_jG5YkESTEeOGPrvk5JzyiQ" name="Constraint2">
           <specification xmi:type="uml:LiteralString" xmi:id="_KsDk4ESUEeOGPrvk5JzyiQ" name="constraintSpec" value="Boa: if (PB &lt;= 75)"/>
         </ownedRule>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_dVI1UESTEeOGPrvk5JzyiQ" name="PB" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_dVI1UESTEeOGPrvk5JzyiQ" name="PB" type="_YxEM0ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_zE9DIEXEEeOrqpxX3URsmQ"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_4loLAESTEeOGPrvk5JzyiQ" name="Chuva Acida">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_-mEqgESTEeOGPrvk5JzyiQ" name="Constraint1">
           <specification xmi:type="uml:LiteralString" xmi:id="_FE_1wESUEeOGPrvk5JzyiQ" name="constraintSpec" value="Alta: PB > 75 and IP > 250"/>
         </ownedRule>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_5_N0IESTEeOGPrvk5JzyiQ" name="PB" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_63SEkESTEeOGPrvk5JzyiQ" name="IP" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_5_N0IESTEeOGPrvk5JzyiQ" name="PB" type="_UsLbEERJEeOGPrvk5JzyiQ" aggregation="composite" association="_N-eqUEXFEeOrqpxX3URsmQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_63SEkESTEeOGPrvk5JzyiQ" name="IP" type="_RGDo8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_Qew1wEXFEeOrqpxX3URsmQ"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_ldQWgESUEeOGPrvk5JzyiQ" name="Poluicao Sonora">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_uyGmAESUEeOGPrvk5JzyiQ" name="Constraint1">
@@ -211,7 +200,7 @@
         <ownedRule xmi:type="uml:Constraint" xmi:id="_3ajCgESUEeOGPrvk5JzyiQ" name="Constraint3">
           <specification xmi:type="uml:LiteralString" xmi:id="_5I7P4ESUEeOGPrvk5JzyiQ" name="constraintSpec" value="Bom: if (Rd &lt; 30)"/>
         </ownedRule>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_th3tMESUEeOGPrvk5JzyiQ" name="Rd" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_th3tMESUEeOGPrvk5JzyiQ" name="Rd" type="_RGDo8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_G6LhIEXFEeOrqpxX3URsmQ"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_FkdjgESVEeOGPrvk5JzyiQ" name="Temperatura">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_KkdSoESVEeOGPrvk5JzyiQ" name="Constraint1">
@@ -223,7 +212,7 @@
         <ownedRule xmi:type="uml:Constraint" xmi:id="_aSIscESVEeOGPrvk5JzyiQ" name="Constraint3">
           <specification xmi:type="uml:LiteralString" xmi:id="_dEGdwESVEeOGPrvk5JzyiQ" name="constraintSpec" value="Bsixa: if (TP &lt; 15)"/>
         </ownedRule>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_HUHjQESVEeOGPrvk5JzyiQ" name="Tp" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_HUHjQESVEeOGPrvk5JzyiQ" name="Tp" type="_YxEM0ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_MknUYEXFEeOrqpxX3URsmQ"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_p-qaQESWEeOGPrvk5JzyiQ" name="Clima">
         <ownedRule xmi:type="uml:Constraint" xmi:id="_xtnC8ESWEeOGPrvk5JzyiQ" name="Constraint1">
@@ -232,10 +221,10 @@
         <ownedRule xmi:type="uml:Constraint" xmi:id="_CzuPUESXEeOGPrvk5JzyiQ" name="Constraint2">
           <specification xmi:type="uml:LiteralString" xmi:id="_Oi6aUESXEeOGPrvk5JzyiQ" name="constraintSpec" value="Ruim: if( Tp > 30 and HA &lt;= 60 and PB => 50 and VV >= 20)"/>
         </ownedRule>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_rDhwkESWEeOGPrvk5JzyiQ" name="PB" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_swnkgESWEeOGPrvk5JzyiQ" name="HA" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_uEmU4ESWEeOGPrvk5JzyiQ" name="VV" aggregation="composite"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_vp77AESWEeOGPrvk5JzyiQ" name="Tp" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_rDhwkESWEeOGPrvk5JzyiQ" name="PB" type="_UsLbEERJEeOGPrvk5JzyiQ" aggregation="composite" association="_48hTcEXEEeOrqpxX3URsmQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_swnkgESWEeOGPrvk5JzyiQ" name="HA" type="_RGDo8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_8yXjoEXEEeOrqpxX3URsmQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_uEmU4ESWEeOGPrvk5JzyiQ" name="VV" type="_RGDo8ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_ARyQ0EXFEeOrqpxX3URsmQ"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_vp77AESWEeOGPrvk5JzyiQ" name="Tp" type="_YxEM0ERJEeOGPrvk5JzyiQ" aggregation="composite" association="_DltfsEXFEeOrqpxX3URsmQ"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_cOdkUESXEeOGPrvk5JzyiQ" name="enactor" type="_vTxJoESJEeOGPrvk5JzyiQ" association="_cObvIESXEeOGPrvk5JzyiQ"/>
       </nestedClassifier>
       <edge xmi:type="uml:ControlFlow" xmi:id="_8iuYsERREeOGPrvk5JzyiQ" name="ControlFlow1" source="_pQrgQERREeOGPrvk5JzyiQ" target="_sxJWUERREeOGPrvk5JzyiQ"/>
@@ -337,9 +326,12 @@
           <upperBound xmi:type="uml:LiteralInteger" xmi:id="_-A2BAEVYEeOYY9b3PNi97w" value="1"/>
         </outputValue>
       </node>
-      <node xmi:type="uml:OpaqueAction" xmi:id="_sL_cIEVUEeOYY9b3PNi97w" name="Assinc. Meessage Server" inPartition="_k9-ukEVaEeOYY9b3PNi97w" outgoing="_8VbLkEVZEeOYY9b3PNi97w" incoming="_NE_8sEVZEeOYY9b3PNi97w">
+      <node xmi:type="uml:OpaqueAction" xmi:id="_sL_cIEVUEeOYY9b3PNi97w" name="Assinc. Message Server" inPartition="_k9-ukEVaEeOYY9b3PNi97w" outgoing="_8VbLkEVZEeOYY9b3PNi97w" incoming="_NE_8sEVZEeOYY9b3PNi97w">
         <inputValue xmi:type="uml:InputPin" xmi:id="_rQWBUEVWEeOYY9b3PNi97w" name="Service Resquest">
           <upperBound xmi:type="uml:LiteralInteger" xmi:id="_rQWoYEVWEeOYY9b3PNi97w" value="1"/>
+        </inputValue>
+        <inputValue xmi:type="uml:InputPin" xmi:id="_XclssEWHEeOyQeZFiqNLqw" name="update">
+          <upperBound xmi:type="uml:LiteralInteger" xmi:id="_XcsaYEWHEeOyQeZFiqNLqw" value="1"/>
         </inputValue>
         <outputValue xmi:type="uml:OutputPin" xmi:id="_eDhasEVWEeOYY9b3PNi97w" name="Service Response">
           <upperBound xmi:type="uml:LiteralInteger" xmi:id="_eDiBwEVWEeOYY9b3PNi97w" value="1"/>
@@ -429,7 +421,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_nCvq0ETaEeOoW78l88xKAA" name="Contextanalyzer">
       <generalization xmi:type="uml:Generalization" xmi:id="_wHkE0ETbEeOoW78l88xKAA" general="_rqA7cETbEeOoW78l88xKAA"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_1TVmIUTbEeOoW78l88xKAA" name="" type="_CmGb8ERIEeOGPrvk5JzyiQ" association="_1TTw8ETbEeOoW78l88xKAA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_rb4OQETaEeOoW78l88xKAA" name="" memberEnd="_rb5cYkTaEeOoW78l88xKAA _rb6DcETaEeOoW78l88xKAA">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rb5cYETaEeOoW78l88xKAA" source="org.eclipse.papyrus">
@@ -439,11 +430,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_rqA7cETbEeOoW78l88xKAA" name="Servico">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_iOWfAUTrEeOoW78l88xKAA" name="" type="_rjtCoETcEeOoW78l88xKAA" aggregation="composite" association="_iOUCwETrEeOoW78l88xKAA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_1TTw8ETbEeOoW78l88xKAA" name="&lt;&lt;Usa>>" memberEnd="_1TVmIUTbEeOoW78l88xKAA _1TWNMETbEeOoW78l88xKAA">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1TU_EETbEeOoW78l88xKAA" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1TVmIETbEeOoW78l88xKAA" key="nature" value="SysML_Nature"/>
-      </eAnnotations>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_VLtF4ETcEeOoW78l88xKAA" name="Broker"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_eluJQETcEeOoW78l88xKAA" name="Client - Proxi"/>
@@ -482,7 +468,7 @@
         <nestedClassifier xmi:type="uml:Class" xmi:id="_j5hrkETkEeOoW78l88xKAA" name="Registrar Serviço"/>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_nqMg0ETkEeOoW78l88xKAA" name="Remover Serviço"/>
       </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_0k1yUETkEeOoW78l88xKAA" name="Retornar Resposta"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_0k1yUETkEeOoW78l88xKAA" name="Encaminhar Requisicoes"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_PeJsMETnEeOoW78l88xKAA" name="Interaction2">
       <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_o_NEkETnEeOoW78l88xKAA" name="ActionExecSpecStart" covered="_R7cOAETnEeOoW78l88xKAA" execution="_o_O5wETnEeOoW78l88xKAA"/>
@@ -580,6 +566,72 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_iOWfAkTrEeOoW78l88xKAA" name="servico" type="_rqA7cETbEeOoW78l88xKAA" association="_iOUCwETrEeOoW78l88xKAA"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_UY-TcEXDEeOrqpxX3URsmQ" name="Association1" memberEnd="_H-Jt0ESMEeOGPrvk5JzyiQ _UY-6gEXDEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UZAIoEXDEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UZAIoUXDEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_UY-6gEXDEeOrqpxX3URsmQ" association="_UY-TcEXDEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_s_ObAEXEEeOrqpxX3URsmQ" name="Association2" memberEnd="_sBGI4ESSEeOGPrvk5JzyiQ _s_ObAUXEEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s_PCEEXEEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s_PpIEXEEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_s_ObAUXEEeOrqpxX3URsmQ" association="_s_ObAEXEEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_zE9DIEXEEeOrqpxX3URsmQ" name="Association3" memberEnd="_dVI1UESTEeOGPrvk5JzyiQ _zE9qMEXEEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zE9qMUXEEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zE-RQEXEEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_zE9qMEXEEeOrqpxX3URsmQ" association="_zE9DIEXEEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_48hTcEXEEeOrqpxX3URsmQ" name="Association4" memberEnd="_rDhwkESWEeOGPrvk5JzyiQ _48h6gEXEEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_48ihkEXEEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_48ihkUXEEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_48h6gEXEEeOrqpxX3URsmQ" association="_48hTcEXEEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8yXjoEXEEeOrqpxX3URsmQ" name="Association5" memberEnd="_swnkgESWEeOGPrvk5JzyiQ _8yYKsEXEEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8yYKsUXEEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8yYxwEXEEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8yYKsEXEEeOrqpxX3URsmQ" association="_8yXjoEXEEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ARyQ0EXFEeOrqpxX3URsmQ" name="Association6" memberEnd="_uEmU4ESWEeOGPrvk5JzyiQ _ARy34EXFEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ARze8EXFEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ARze8UXFEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ARy34EXFEeOrqpxX3URsmQ" association="_ARyQ0EXFEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DltfsEXFEeOrqpxX3URsmQ" name="Association7" memberEnd="_vp77AESWEeOGPrvk5JzyiQ _DltfsUXFEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DluGwEXFEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DluGwUXFEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_DltfsUXFEeOrqpxX3URsmQ" association="_DltfsEXFEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_G6LhIEXFEeOrqpxX3URsmQ" name="Association8" memberEnd="_th3tMESUEeOGPrvk5JzyiQ _G6MIMEXFEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G6MvQEXFEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G6MvQUXFEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_G6MIMEXFEeOrqpxX3URsmQ" association="_G6LhIEXFEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MknUYEXFEeOrqpxX3URsmQ" name="Association9" memberEnd="_HUHjQESVEeOGPrvk5JzyiQ _Mkn7cEXFEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MkoigEXFEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MkoigUXFEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Mkn7cEXFEeOrqpxX3URsmQ" association="_MknUYEXFEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_N-eqUEXFEeOrqpxX3URsmQ" name="Association10" memberEnd="_5_N0IESTEeOGPrvk5JzyiQ _N-fRYEXFEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N-f4cEXFEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N-f4cUXFEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_N-fRYEXFEeOrqpxX3URsmQ" association="_N-eqUEXFEeOrqpxX3URsmQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Qew1wEXFEeOrqpxX3URsmQ" name="Association11" memberEnd="_63SEkESTEeOGPrvk5JzyiQ _Qew1wUXFEeOrqpxX3URsmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qexc0EXFEeOrqpxX3URsmQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qexc0UXFEeOrqpxX3URsmQ" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Qew1wUXFEeOrqpxX3URsmQ" association="_Qew1wEXFEeOrqpxX3URsmQ"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Sx9dAEQ8EeOGPrvk5JzyiQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Sx9dAUQ8EeOGPrvk5JzyiQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
@@ -647,34 +699,32 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_t6M40ERAEeOGPrvk5JzyiQ" base_Class="_t5zQMERAEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_2Q7TMERAEeOGPrvk5JzyiQ" base_Class="_2Qbj8ERAEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_dOIHoERBEeOGPrvk5JzyiQ" base_Class="_dN0loERBEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_uw1wcERBEeOGPrvk5JzyiQ" base_Class="_uwekEERBEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_zwao0ERBEeOGPrvk5JzyiQ" base_Class="_zwF4sERBEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_C2MVIERCEeOGPrvk5JzyiQ" base_Class="_C12W4ERCEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_FGlqcERCEeOGPrvk5JzyiQ" base_Class="_FGRhYERCEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_M_YLoERCEeOGPrvk5JzyiQ" base_Class="_M_ECkERCEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_IHL4MERDEeOGPrvk5JzyiQ" base_Class="_IG4WMERDEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_Moh8cERDEeOGPrvk5JzyiQ" base_Class="_MoKwEERDEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_dn3LYERDEeOGPrvk5JzyiQ" base_Class="_dnhNIERDEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_nJEb4ERDEeOGPrvk5JzyiQ" base_Class="_nIoXAERDEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_r5JfsERDEeOGPrvk5JzyiQ" base_Class="_r40vkERDEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_t6M40ERAEeOGPrvk5JzyiQ" text="Permitir o monitoramento ambiental em cidades inteligentes" id="1" base_Class="_t5zQMERAEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_2Q7TMERAEeOGPrvk5JzyiQ" text="monitorar diversas variáveis ambientais" id="1.1" base_Class="_2Qbj8ERAEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_dOIHoERBEeOGPrvk5JzyiQ" text="monitorar poluição no ambiente" id="1.1.1" base_Class="_dN0loERBEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_uw1wcERBEeOGPrvk5JzyiQ" text="monitorar focos de incendio" id="1.1.5" base_Class="_uwekEERBEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_zwao0ERBEeOGPrvk5JzyiQ" text="monitorar a quantidade de lixo em cada lixeira" id="1.1.2" base_Class="_zwF4sERBEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_C2MVIERCEeOGPrvk5JzyiQ" text="monitorar a temperatura do ambiente" id="1.1.3" base_Class="_C12W4ERCEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_FGlqcERCEeOGPrvk5JzyiQ" id="1.1.4" base_Class="_FGRhYERCEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_M_YLoERCEeOGPrvk5JzyiQ" id="1.1.6" base_Class="_M_ECkERCEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_IHL4MERDEeOGPrvk5JzyiQ" id="1.1.1.1" base_Class="_IG4WMERDEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_Moh8cERDEeOGPrvk5JzyiQ" id="1.1.1.2" base_Class="_MoKwEERDEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_dn3LYERDEeOGPrvk5JzyiQ" text="monitorar quantos veiculos passam por segundo diante de um sensor" id="1.1.7" base_Class="_dnhNIERDEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_nJEb4ERDEeOGPrvk5JzyiQ" text="inferir com base nas variaveis monitoradas a ocorrencia de eventos" id="1.1.2" base_Class="_nIoXAERDEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_r5JfsERDEeOGPrvk5JzyiQ" text="publicar os eventos inferidos em um sistemas de mensagens" id="1.1.3" base_Class="_r40vkERDEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_aXaxgERHEeOGPrvk5JzyiQ" base_Class="_aXZjYERHEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_qghjEERHEeOGPrvk5JzyiQ" base_Class="_qgg8AERHEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_04W5kERHEeOGPrvk5JzyiQ" base_Class="_04VrcERHEeOGPrvk5JzyiQ"/>
-  <Blocks:Block xmi:id="_CmHDAERIEeOGPrvk5JzyiQ" base_Class="_CmGb8ERIEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_NpyL0ERIEeOGPrvk5JzyiQ" base_Class="_NpwWoERIEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_UvPyoERIEeOGPrvk5JzyiQ" base_Class="_UvPLkERIEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_Xg-TYERIEeOGPrvk5JzyiQ" base_Class="_Xg9FQERIEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_RGEQAERJEeOGPrvk5JzyiQ" base_Class="_RGDo8ERJEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_UsMCIERJEeOGPrvk5JzyiQ" base_Class="_UsLbEERJEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_YxEz4ERJEeOGPrvk5JzyiQ" base_Class="_YxEM0ERJEeOGPrvk5JzyiQ"/>
-  <Blocks:Block xmi:id="_dXIZAERJEeOGPrvk5JzyiQ" base_Class="_dXHx8ERJEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_imBfwERJEeOGPrvk5JzyiQ" base_Class="_imARoERJEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_lJ8OAERJEeOGPrvk5JzyiQ" base_Class="_lJ6Y0ERJEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_sNd7IERJEeOGPrvk5JzyiQ" base_Class="_sNctAERJEeOGPrvk5JzyiQ"/>
-  <Requirements:Requirement xmi:id="_mapygERKEeOGPrvk5JzyiQ" base_Class="_maSmIERKEeOGPrvk5JzyiQ"/>
+  <Requirements:Requirement xmi:id="_mapygERKEeOGPrvk5JzyiQ" text="notificar os interessados sobre os eventos inferidos" id="1.1.4" base_Class="_maSmIERKEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_k9TFEESJEeOGPrvk5JzyiQ" base_Class="_k9SeAESJEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_oxmdIESJEeOGPrvk5JzyiQ" base_Class="_oxlPAESJEeOGPrvk5JzyiQ"/>
   <Blocks:Block xmi:id="_sZ-5EESJEeOGPrvk5JzyiQ" base_Class="_sZ-SAESJEeOGPrvk5JzyiQ"/>
@@ -691,13 +741,13 @@
   <Blocks:Block xmi:id="_VLts8ETcEeOoW78l88xKAA" base_Class="_VLtF4ETcEeOoW78l88xKAA"/>
   <Blocks:Block xmi:id="_elvXYETcEeOoW78l88xKAA" base_Class="_eluJQETcEeOoW78l88xKAA"/>
   <Blocks:Block xmi:id="_rjuQwETcEeOoW78l88xKAA" base_Class="_rjtCoETcEeOoW78l88xKAA"/>
-  <Requirements:Requirement xmi:id="_w9uXIETjEeOoW78l88xKAA" base_Class="_w8-wQETjEeOoW78l88xKAA"/>
-  <Requirements:Requirement xmi:id="__i0YQETjEeOoW78l88xKAA" base_Class="__iWeMETjEeOoW78l88xKAA"/>
-  <Requirements:Requirement xmi:id="_bHaVsETkEeOoW78l88xKAA" base_Class="_bHFlkETkEeOoW78l88xKAA"/>
-  <Requirements:Requirement xmi:id="_j56GEETkEeOoW78l88xKAA" base_Class="_j5hrkETkEeOoW78l88xKAA"/>
-  <Requirements:Requirement xmi:id="_nqjGIETkEeOoW78l88xKAA" base_Class="_nqMg0ETkEeOoW78l88xKAA"/>
+  <Requirements:Requirement xmi:id="_w9uXIETjEeOoW78l88xKAA" text="intermedia comunicacao entre os cientes e os servicos" id="1" base_Class="_w8-wQETjEeOoW78l88xKAA"/>
+  <Requirements:Requirement xmi:id="__i0YQETjEeOoW78l88xKAA" text="Manter uma lista com serviços e suas funcinalidades" id="1.2" base_Class="__iWeMETjEeOoW78l88xKAA"/>
+  <Requirements:Requirement xmi:id="_bHaVsETkEeOoW78l88xKAA" text="prevencao contra falhas" id="1.1.3" base_Class="_bHFlkETkEeOoW78l88xKAA"/>
+  <Requirements:Requirement xmi:id="_j56GEETkEeOoW78l88xKAA" id="1.2.1" base_Class="_j5hrkETkEeOoW78l88xKAA"/>
+  <Requirements:Requirement xmi:id="_nqjGIETkEeOoW78l88xKAA" id="1.2.2" base_Class="_nqMg0ETkEeOoW78l88xKAA"/>
   <Requirements:Requirement xmi:id="_v5doUETkEeOoW78l88xKAA" base_Class="_v5HDAETkEeOoW78l88xKAA"/>
-  <Requirements:Requirement xmi:id="_0lQCAETkEeOoW78l88xKAA" base_Class="_0k1yUETkEeOoW78l88xKAA"/>
-  <Requirements:Requirement xmi:id="_2wzBoETmEeOoW78l88xKAA" base_Class="_2wdDYETmEeOoW78l88xKAA"/>
-  <Requirements:Requirement xmi:id="_8egyYETmEeOoW78l88xKAA" base_Class="_8eIX4ETmEeOoW78l88xKAA"/>
+  <Requirements:Requirement xmi:id="_0lQCAETkEeOoW78l88xKAA" text="Encaminhar requisições dos clientes" id="1.1" base_Class="_0k1yUETkEeOoW78l88xKAA"/>
+  <Requirements:Requirement xmi:id="_2wzBoETmEeOoW78l88xKAA" text="Manter os dados importantes em banco de dados" id="1.1.3.1" base_Class="_2wdDYETmEeOoW78l88xKAA"/>
+  <Requirements:Requirement xmi:id="_8egyYETmEeOoW78l88xKAA" text="Recuperar-se em caso de falhas" id="1..1.3.2" base_Class="_8eIX4ETmEeOoW78l88xKAA"/>
 </xmi:XMI>
